@@ -16,4 +16,14 @@ console.log(`${num}`); //number -> str
 console.log(`${bool}`); //boolean -> str
 console.log(`${nul}`); //null -> str
 
+//Task 2
+let aSide = 5,
+  bSide = 4;
 
+perimeter = (aSide + bSide) * 2;
+square = aSide * bSide;
+
+console.log(`Сторона а прямоугольника: ${aSide}, сторона b: ${bSide}`);
+console.log(`Периметр равен: ${perimeter}`);
+console.log(`Площадь равна: ${square}`);
+console.log(`Отношение периметра к площади: ${perimeter / square}`);
