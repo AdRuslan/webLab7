@@ -36,6 +36,12 @@ console.log(`${Celsius}\xB0C соответствует ${Celsius * 1.8 + 32}\xB
 console.log(`${Fahrenheit}\xB0F соответствует ${(Fahrenheit - 32) / 1.8}\xB0C`);
 
 //Task 4
-year = prompt("Введите год");
+let year = prompt("Введите год");
 
 alert(year % 4 != 0 ? false : year % 100 == 0 ? false : true);
+
+//Task 5
+num1 = +prompt("Введите первое число");  //Почему я здесь пишу без let или const, но все работает?
+num2 = +prompt("Введите второе число");  //Я ведь не объявил переменную. Такая же ситуация в строках 23 и 24
+
+console.log(num1 == 10 || num2 == 10 || num1 + num2 == 10 ? true : false);
