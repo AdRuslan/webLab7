@@ -34,3 +34,8 @@ let Celsius = 25,
 
 console.log(`${Celsius}\xB0C соответствует ${Celsius * 1.8 + 32}\xB0F`);
 console.log(`${Fahrenheit}\xB0F соответствует ${(Fahrenheit - 32) / 1.8}\xB0C`);
+
+//Task 4
+year = prompt("Введите год");
+
+alert(year % 4 != 0 ? false : year % 100 == 0 ? false : true);
