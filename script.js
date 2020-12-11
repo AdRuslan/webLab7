@@ -27,3 +27,10 @@ console.log(`Сторона а прямоугольника: ${aSide}, стор�
 console.log(`Периметр равен: ${perimeter}`);
 console.log(`Площадь равна: ${square}`);
 console.log(`Отношение периметра к площади: ${perimeter / square}`);
+
+//Task 3
+let Celsius = 25,
+  Fahrenheit = 66.2;
+
+console.log(`${Celsius}\xB0C соответствует ${Celsius * 1.8 + 32}\xB0F`);
+console.log(`${Fahrenheit}\xB0F соответствует ${(Fahrenheit - 32) / 1.8}\xB0C`);
